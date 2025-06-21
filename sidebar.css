@@ -175,7 +175,7 @@ ul li:hover ul.dropdwon {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 35vh;
     background: url('bg.jpg');
     background-position: center;
     background-size: cover;
@@ -275,17 +275,17 @@ ul li:hover ul.dropdwon {
 }
 
 .home-content img{
-    width: 500px;
+    width: 800px;
     border-radius: 3px;
 }
 
  .showcase-image img{
-    width: 250px;
+    width: 240px;
     margin: 5px;
     border-radius: 3px; 
     margin-left: 65px;
     flex-wrap: wrap;
-   
+    margin-top: 20px;   
 }
 
 .showcase-image img:hover{
@@ -361,7 +361,7 @@ ul li:hover ul.dropdwon {
 .contact-infor h2{
     font-size: 3rem;
     margin-bottom: 30px;
-    color: #162839;
+    color: #ff0000;
 }
 
 .contact-infor li, ul{
@@ -660,9 +660,9 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 40px;
     background-color: #00000099;
@@ -725,7 +725,7 @@ footer {
 .slideshow-container img {
   margin-left: 22%;
   width: 300px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .slide {
   display: none;
@@ -789,7 +789,7 @@ footer {
 }
 
 .home-content img{
-    width: 400px;
+    width: 380px;
     border-radius: 10px;
     border: 1px solid #000;
     margin-top: 30px;
@@ -838,12 +838,6 @@ footer {
     border-radius: 8px;
     font-family: segoe UI, Helvetica, sans-serif;
     box-shadow: 0 0 15px rgb(138, 134, 134);
-}
-
-.home-content img{
-    width: 400px;
-    padding: 5px;
-    border-radius: 10px;
 }
 
 /* Contact Starr */
@@ -913,7 +907,7 @@ footer{
 }
 
 .footer-container{
-    flex: 1 1 100%;
+    flex: 1 0 38%;
     flex-wrap: wrap;
     padding: 5px;
     /* box-shadow: 0 4px 18px grey; */
@@ -990,14 +984,14 @@ legend{
 
 .showcase-image img{
     flex-wrap: wrap;
-    width: 160px;
+    width: 130px;
     border-radius: 10px;
     margin-top: 40px; 
 
 }
 
 .home-content img{
-    width: 400px;
+    width: 380px;
     border-radius: 10px;
     border: 1px solid #000;
     margin-top: 30px;
