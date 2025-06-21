@@ -175,7 +175,7 @@ ul li:hover ul.dropdwon {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
     background: url('bg.jpg');
     background-position: center;
     background-size: cover;
@@ -249,9 +249,9 @@ ul li:hover ul.dropdwon {
 }
 
 .home-content{
-    flex: 0 0 38%;
-    margin: 0px;
-    margin: 30px;
+    flex: 1 1 100%;
+    margin: 0 auto;
+    padding: 8px;
 }
 
 .home-content h1,b{
@@ -263,8 +263,8 @@ ul li:hover ul.dropdwon {
     line-height: 30px;
     letter-spacing: 1.2px;
     border-radius: 3px;
-    padding: 50px;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
+    padding: 8px;
+    font-family: segoe UI, sans-serif, 'Times New Roman', Times, serif;
     box-shadow: 0 0 10px;
     background-color: #162839;
     color: #162839;
@@ -275,12 +275,12 @@ ul li:hover ul.dropdwon {
 }
 
 .home-content img{
-    width: 480px;
+    width: 500px;
     border-radius: 3px;
 }
 
  .showcase-image img{
-    width: 280px;
+    width: 250px;
     margin: 5px;
     border-radius: 3px; 
     margin-left: 65px;
@@ -396,6 +396,7 @@ ul li:hover ul.dropdwon {
 .six{
     background-color: greenyellow;
     padding: 20px;
+    color: #162839;
 }
 .seven{
     background: purple;
@@ -405,6 +406,8 @@ ul li:hover ul.dropdwon {
 .eight{
     background-color: aquamarine;
     padding: 20px;
+    color: #162839;
+}
 }
 .nine{
     background-color: chocolate;
@@ -414,6 +417,8 @@ ul li:hover ul.dropdwon {
 .ten{
     background-color: cyan;
     padding: 20px;
+    color: #162839;
+}
 }
 
 .hover{
@@ -432,12 +437,12 @@ ul li:hover ul.dropdwon {
 /* Form Section Start */
 .form-section{
   position: relative;
-    padding: 5px;
-    width: 100%;
-    background: url(bg3.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: local;
+  padding: 5px;
+  width: 100%;
+  background: url(bg3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
 
 }
 
@@ -596,7 +601,7 @@ legend{
    box-shadow: 0 4px 0.998px #ff0000;
    padding: 10px;
    border-radius: 5px;
-   
+   border-color: #ff0000;   
 }
 
 .soft-drinks p {
@@ -776,7 +781,8 @@ footer {
 
 .showcase-image img{
     flex-wrap: wrap;
-    width: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 10px;
     margin-top: 40px; 
 
@@ -830,12 +836,12 @@ footer {
     line-height: 25px;
     letter-spacing: 1.2px;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: segoe UI, Helvetica, sans-serif;
     box-shadow: 0 0 15px rgb(138, 134, 134);
 }
 
 .home-content img{
-    width: 430px;
+    width: 400px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -844,10 +850,6 @@ footer {
 
 .contact-header h1{
     font-size: 18px;
-}
-
-.contact-header p{
-    font-size: small;
 }
 
 .contact-infor h2{
@@ -988,7 +990,7 @@ legend{
 
 .showcase-image img{
     flex-wrap: wrap;
-    width: 150px;
+    width: 160px;
     border-radius: 10px;
     margin-top: 40px; 
 
