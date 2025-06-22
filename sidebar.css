@@ -718,9 +718,10 @@ footer {
     background-color: #ff0000b0;
 }
 
-icons {
+.icons {
   width: 80px
-  color: white; 
+  color: white;
+  margin: 8px
 }
 
 /* Images Slightshow */
