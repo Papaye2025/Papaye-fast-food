@@ -767,6 +767,10 @@ footer {
   display: block;
 }
 
+  nav {
+    width: 100%;
+  }
+
 .hero-container h1{
     font-size: 3rem;
 }
@@ -960,6 +964,10 @@ legend{
   .menu-btn {
   display: block;
 }
+
+  nav{
+    width: 100%;
+  }
 
 .hero {
   height: 30vh;
