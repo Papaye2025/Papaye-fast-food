@@ -719,6 +719,7 @@ footer {
 }
 
 .icons {
+  display: flex;
   text-align: center;
   margin: 30px 0;
 }
@@ -939,6 +940,18 @@ footer{
 
 }
 
+  .icons {
+  display: flex;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.icons svg {
+  width: 30px
+  color: white;
+  margin: 8px
+}
+
 /* footer end */
 
 
@@ -1150,6 +1163,18 @@ footer{
     border-radius: 10px;
     z-index: -1;
 
+}
+
+  .icons {
+  display: flex;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.icons svg {
+  width: 30px
+  color: white;
+  margin: 8px
 }
 
 /* footer end */
