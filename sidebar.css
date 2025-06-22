@@ -718,8 +718,9 @@ footer {
     background-color: #ff0000b0;
 }
 
-svg {
-  width: 30px
+icons {
+  width: 80px
+  color: white; 
 }
 
 /* Images Slightshow */
