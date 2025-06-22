@@ -717,14 +717,18 @@ footer {
 .foot-img img:hover{
     background-color: #ff0000b0;
 }
-
+/* ....... social media icons ........*/
 .icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 30px 0;
+  margin: 30px 5px;
 }
 
 .icons svg {
+  display: flex;
+  text-align: center;
   width: 50px
   color: white;
   margin: 8px
