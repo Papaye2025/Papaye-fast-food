@@ -718,6 +718,10 @@ footer {
     background-color: #ff0000b0;
 }
 
+svg {
+  width: 30px
+}
+
 /* Images Slightshow */
 .slideshow-container {
   max-width: 500px;
