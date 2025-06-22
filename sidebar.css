@@ -283,7 +283,6 @@ ul li:hover ul.dropdwon {
     width: 240px;
     margin: 5px;
     border-radius: 3px; 
-    margin-left: 65px;
     flex-wrap: wrap;
     margin-top: 20px;   
 }
@@ -902,15 +901,11 @@ footer {
 footer{
     position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .footer-container{
-    flex: 1 0 38%;
-    flex-wrap: wrap;
-    padding: 5px;
-    /* box-shadow: 0 4px 18px grey; */
+    width: 200px;
+    height: 240px;
     margin: 5px;
 
 }
@@ -922,7 +917,7 @@ footer{
     right: 70px;
     padding: 0;
     border-radius: 10px;
-    background: red;
+    z-index: -1;
 
 }
 
@@ -1113,13 +1108,11 @@ legend{
 footer{
     position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .footer-container{
-    flex: 1 1 100%;
-    flex-wrap: wrap;
+    width: 200px;
+    height: 240px
     padding: 5px;
     /* box-shadow: 0 4px 18px grey; */
     margin: 5px;
@@ -1133,7 +1126,7 @@ footer{
     right: 70px;
     padding: 0;
     border-radius: 10px;
-    background: red;
+    z-index: -1;
 
 }
 
