@@ -724,12 +724,13 @@ footer {
   align-items: center;
   text-align: center;
   margin: 30px 5px;
+  color: white;
 }
 
 .icons svg {
   display: flex;
   text-align: center;
-  width: 50px
+  width: 100px
   color: white;
   margin: 8px
 }
@@ -951,7 +952,7 @@ footer{
 }
 
 .icons svg {
-  width: 30px
+  width: 60px
   color: white;
   margin: 8px
 }
@@ -1176,7 +1177,7 @@ footer{
 }
 
 .icons svg {
-  width: 30px
+  width: 60px
   color: white;
   margin: 8px
 }
