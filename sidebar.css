@@ -661,7 +661,7 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-    display: flex;
+/*     display: flex; */
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -671,6 +671,7 @@ footer {
 }
 
 .footer-container{
+    display: flex;
     flex: 0 0 38%;
 /*     flex-direction: column; */
 /*     justify-content: center;
