@@ -661,7 +661,7 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-     display: flex;
+/*      display: flex; */
     flex-wrap: wrap;
 /*     flex-direction: column; */
     justify-content: center;
@@ -925,6 +925,7 @@ footer {
 footer{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
@@ -1150,6 +1151,7 @@ legend{
 footer{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
