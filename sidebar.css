@@ -175,7 +175,7 @@ ul li:hover ul.dropdwon {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 45vh;
     background: url('bg.jpg');
     background-position: center;
     background-size: cover;
@@ -661,10 +661,10 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-     /* display: flex; */
+     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
+/*     flex-direction: column; */
+    justify-content: center;
     align-items: center;
     margin-top: 40px;
     background-color: #00000099;
@@ -724,15 +724,14 @@ footer {
   align-items: center;
   text-align: center;
   margin: 30px 5px;
-  color: white;
 }
 
-.icons a{
+.icons svg{
   display: flex;
   text-align: center;
-  font-size: 2em;
-  color: white;
-  margin: 8px
+  width: 45px;
+  fill: white;
+  margin: 10px
 }
 
 /* Images Slightshow */
@@ -778,7 +777,7 @@ footer {
 
 
 
-/* Mobile Responsiveness */
+/* Mobile Responsiveness 1 */
 @media (max-width: 768px) {
   .hidden {
     display: none;
@@ -926,10 +925,12 @@ footer {
 footer{
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .footer-container{
-    flex-grow: 2;
+    flex: 1 1 100%
     margin: 5px;
 
 }
@@ -938,7 +939,7 @@ footer{
     position: absolute;
     width: 120px;
     top: 60%;
-    right: 70px;
+    right: 40px;
     padding: 0;
     border-radius: 10px;
     z-index: -1;
@@ -951,9 +952,9 @@ footer{
   margin: 30px 0;
 }
 
-.icons a {
+.icons svg {
   font-size: 1.5rem;
-  color: white;
+  fill: white;
   margin: 8px
 }
 
@@ -989,7 +990,7 @@ legend{
 
 }
 /* Mobile Responsiveness 2 */
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .hidden {
     display: none;
   }
@@ -1149,12 +1150,13 @@ legend{
 footer{
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .footer-container{
-    width: 400px
+    flex: 1 1 100%
     padding: 5px;
-    /* box-shadow: 0 4px 18px grey; */
     margin: 5px;
 
 }
@@ -1176,10 +1178,10 @@ footer{
   margin: 30px 0;
 }
 
-.icons a {
-  font-size: 1.5rem;
-  color: white;
-  margin: 8px
+.icons svg {
+  width: 45px;
+  fill: white;
+  margin: 5px
 }
 
 /* footer end */
