@@ -599,10 +599,10 @@ legend{
 .full-pack-content {
    width: 270px;
    margin: 5px;
-   box-shadow: 0 4px 0.998px #0006aff;
+   box-shadow: 0 4px 0.998px #ff0000;
    padding: 5px;
    border-radius: 5px;
-   border-color: #ff0000;   
+   border-color: #006aff;   
 }
 
 .soft-drinks p {
@@ -661,7 +661,7 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-/*      display: flex; */
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -669,6 +669,14 @@ footer {
     background-color: #00000099;
     padding: 20px;
     color: beige;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: flex-start;
+    padding: 5px;
 }
 
 .footer-container li{
@@ -685,16 +693,9 @@ footer {
     color: #ffffff;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: center;
-     align-items: center;
-    padding: 5px;
-}
-
 .footer-container h3{
     margin-bottom: 20px;
-    color: #0006aff;
+    color: #006aff;
 }
 
 .foot-cont{
@@ -721,13 +722,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 30px 5px;
+  margin: 30px 0;
 }
 
 .icons svg{
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
   width: 38px;
   fill: white;
   margin: 10px
@@ -871,7 +873,7 @@ footer {
 .contact-infor h2{
     font-size: 25px;
     text-align: center;
-    color: #ff0000;
+    color: #006aff;
     border-bottom: 1px solid;
     padding-bottom: 10px;
     /* border-color: #ff0000; */
@@ -931,7 +933,9 @@ footer{
 
 .footer-container{
     display: flex;
-    flex: 1 1 100%
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     margin: 5px;
 
 }
@@ -949,14 +953,15 @@ footer{
 
   .icons {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 30px 0;
 }
 
 .icons svg {
   font-size: 1.5rem;
   fill: white;
-  margin: 8px
+  margin: 10px
 }
 
 /* footer end */
@@ -1151,6 +1156,7 @@ legend{
 footer{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -1161,7 +1167,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex: 1 1 100%
     padding: 5px;
     margin: 5px;
 
@@ -1180,14 +1185,15 @@ footer{
 
   .icons {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 30px 0;
 }
 
 .icons svg {
   width: 38px;
   fill: white;
-  margin: 5px
+  margin: 10px
 }
 
 /* footer end */
