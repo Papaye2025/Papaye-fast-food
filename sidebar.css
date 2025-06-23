@@ -659,16 +659,6 @@ legend{
 }
 
 /* ................Menu End .............*/
-/* footer {
-    position: relative;
-/*     display: flex;  */
-/*     justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    background-color: #00000099;
-    padding: 10px;
-    color: beige;
-    font-size: 14px; */
 
 footer{
  justify-content: center; 
@@ -707,6 +697,11 @@ footer{
   justify-content: center;
  margin: 20px 10px;
  fill: #fff;
+}
+
+.foot-img img{
+  z-index: -1;
+  width: 170px;
 }
 /* footer end */
 
