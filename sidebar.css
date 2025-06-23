@@ -672,6 +672,7 @@ footer {
 
 .footer-container{
     display: flex;
+    flex-direction: column;
     flex: 0 0 38%;
 /*     flex-direction: column; */
 /*     justify-content: center;
