@@ -661,21 +661,25 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-    display: flex; 
+/*     display: flex;  */
     justify-content: center;
     align-items: center;
     margin-top: 40px;
     background-color: #00000099;
-    padding: 20px;
+    padding: 10px;
     color: beige;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .footer-container li{
