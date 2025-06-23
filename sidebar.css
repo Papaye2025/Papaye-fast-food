@@ -659,24 +659,16 @@ legend{
 }
 
 /* ................Menu End .............*/
-footer {
+/* footer {
     position: relative;
 /*     display: flex;  */
-    justify-content: center;
+/*     justify-content: center;
     align-items: center;
     margin-top: 40px;
     background-color: #00000099;
     padding: 10px;
     color: beige;
-    font-size: 14px;
-}
-
-.icons svg{
-  width: 30px;
-  justify-content: center;
- margin: 20px 10px;
- fill: #0f0f0f;
-}
+    font-size: 14px; */
 
 footer{
  justify-content: center; 
@@ -691,9 +683,8 @@ footer{
 
 .footer-content{
  flex: 0 0 48%;
- border: 1px solid #000;
  margin: 5px;
- padding: px;
+ padding: 10px;
 }
 
 .footer-content h3{
@@ -710,6 +701,15 @@ footer{
   text-decoration: none;
   color: #006aff;
 }
+
+.icons svg{
+  width: 50px;
+  justify-content: center;
+ margin: 20px 10px;
+ fill: #fff;
+}
+/* footer end */
+
 /* Images Slightshow */
 .slideshow-container {
   max-width: 500px;
@@ -721,7 +721,7 @@ footer{
 .slideshow-container img {
   margin-left: 22%;
   width: 300px;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .slide {
   display: none;
@@ -897,46 +897,37 @@ footer{
 
 
 /* footer start */
-
-footer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .footer-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 5px;
-
-}
-
-.foot-img img{
-    position: absolute;
-    width: 120px;
-    top: 60%;
-    right: 40px;
-    padding: 0;
-    border-radius: 10px;
-    z-index: -1;
-
-}
-
-  .icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
+  flex-direction: column;
 }
 
-.icons svg {
-  font-size: 1.5rem;
-  fill: white;
-  margin: 10px
+.footer-content{
+ flex: 0 0 40%;
+ margin: 5px;
+ padding: 10px;
+}
+
+.footer-content h3{
+  padding: 10px;
+  color: #006aff;
+}
+
+.footer-content li {
+  list-style: none;
+ 
+}
+
+.footer-content a{
+  text-decoration: none;
+  color: #006aff;
+}
+
+.icons svg{
+  width: 50px;
+  justify-content: center;
+ margin: 20px 10px;
+ fill: #fff;
 }
 
 /* footer end */
