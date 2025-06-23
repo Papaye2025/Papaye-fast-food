@@ -661,8 +661,7 @@ legend{
 /* ................Menu End .............*/
 footer {
     position: relative;
-/*      display: flex; */
-    flex-wrap: wrap;
+/*     display: flex; */
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -675,7 +674,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-     align-items: flex-start;
+    align-items: center;
     padding: 5px;
 }
 
@@ -729,7 +728,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
   width: 38px;
   fill: white;
   margin: 10px
@@ -955,7 +953,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .icons svg {
@@ -993,224 +991,4 @@ legend{
     background: transparent;
 }
 /* Form End */
-
 }
-/* Mobile Responsiveness 2 */
-@media (max-width: 450px) {
-  .hidden {
-    display: none;
-  }
-
-  .menu-btn {
-  display: block;
-}
-
-  nav{
-    width: 100%;
-  }
-
-.hero {
-  height: 30vh;
-}
-
-.hero-container h1{
-    font-size: 2rem;
-}
-
-.hero button{
-    left: 38%;
-}
-
-.home-container{
-    position: relative;
-}
-
-.showcase-image img{
-    flex-wrap: wrap;
-    width: 135px;
-    border-radius: 10px;
-    margin-top: 40px; 
-
-}
-
-.home-content img{
-    width: 340px;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    animation: scamImage 2s ease-in-out infinite;
-}
-
- @keyframes  scamImage {
-    0% {
-        box-shadow: 0 0 0;
-    }
-    30%{
-        box-shadow: 0 0 50px red;
-    }
-    50%{
-        box-shadow: 0 0 50px green;
-    }
-    80%{
-        box-shadow: 0 0 50px #e2d300;
-    }
-    100%{
-        box-shadow: 0 0 50px rgb(255, 255, 255);
-    }
-}
-
-.home-container{
-    flex-direction: column;
-    padding: 5px;
-    box-shadow: 0 0 0;
-    color: #000000;
-    background-color: beige;
-
-}
-
-.home-content{
-    margin: 5px;
-}
-
-.home-content h1,b{
-    color: rgba(255, 0, 0, 0.692);
-}
-
-.home-text{
-    line-height: 25px;
-    letter-spacing: 1.2px;
-    border-radius: 8px;
-    font-family: segoe UI, verdena, Helvetica, sans-serif;
-    box-shadow: 0 0 15px rgb(138, 134, 134);
-}
-
-.home-content img{
-    width: 340px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-/* Contact Starr */
-
-.contact-header h1{
-    font-size: 18px;
-}
-
-.contact-header p{
-    font-size: small;
-}
-
-.contact-infor h2{
-    font-size: 25px;
-    text-align: center;
-    color: #ff0000;
-    border-bottom: 1px solid;
-    padding-bottom: 10px;
-    /* border-color: #ff0000; */
-}
-
-
-.color1{
-    padding: 0;
-    flex-wrap: wrap;
-    background: transparent;
-    color: beige;
-    
-}
-
-.contact-infor{
-    width: 39%;
-    list-style: decimal;
-    margin-left: 0;
-    margin: 10px;
-    font-size: 12px;
-}
-
-.hover{
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 12px;
-}
-
-.hover:hover{
-    transform: translateY(3px);
-    box-shadow: 2px 4px 15px;
-}
-
-.branch-names .hover{
-    font-size: 20px;
-    padding: 0;
-    box-shadow: 0 0 18px white;
-}
-
-.contact-wrapper{
-    font-size: 12px;
-    /* border: 1px solid #000; */
-}
-/* Contact End */
-
-
-
-/* footer start */
-
-footer{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5px;
-    margin: 5px;
-
-}
-
-.foot-img img{
-    position: absolute;
-    width: 150px;
-    top: 60%;
-    right: 5px;
-    padding: 0;
-    border-radius: 10px;
-    z-index: -1;
-
-}
-
-  .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 0;
-}
-
-.icons svg {
-  width: 38px;
-  fill: white;
-  margin: 10px
-}
-
-/* footer end */
-
-
-/* Form Start */
-legend{
-    margin-left: 30%;
-    background: transparent;
-}
-}
-/* Form End */
-
-/* slides start */
-.slideshow-container img {
-  margin-left: 18%;
-  width: 250px;
-  margin-top: 90px;
-}
-/* slides end */
