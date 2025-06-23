@@ -749,7 +749,7 @@ footer{
 
 
 /* Mobile Responsiveness 1 */
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .hidden {
     display: none;
   }
@@ -919,7 +919,7 @@ footer{
 }
 
 .icons svg{
-  width: 50px;
+  width: 30px;
   justify-content: center;
  margin: 20px 10px;
  fill: #fff;
